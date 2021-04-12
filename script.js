@@ -1,20 +1,20 @@
 var myList = []
-var multiplo3 = i % 3 === 0
-var multiplo5 = i % 5 === 0
+// var multiplo3 = i % 3 === 0
+// var multiplo5 = i % 5 === 0
 
 
-for(var i=0; i <100; i++) {
+for(var i=0; i <= 100; i++) {
 
     if (i % 3 === 0 && i % 5 === 0){
-        myList.push("FizzBuzz")
+        console.log("FizzBuzz")
     }else if(i % 5 === 0){
-        myList.push("Buzz")
+        console.log("Buzz")
     }else if(i % 3 === 0){
-        myList.push("Fizz")
+        console.log("Fizz")
     }else{
-        myList.push(i)
+        console.log(i)
     }
 }
 
-console.log(mylist);
-document.getElementById("myList").innerHTML = mylist
+console.log(myList);
+document.getElementById("myList").innerHTML = myListkk
