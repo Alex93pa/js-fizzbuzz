@@ -17,4 +17,4 @@ for(var i=0; i <= 100; i++) {
 }
 
 console.log(myList);
-document.getElementById("myList").innerHTML = myListkk
+document.getElementById('myList').innerHTML = myList;
